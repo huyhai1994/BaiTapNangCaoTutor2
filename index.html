@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button"  onclick="displayMessage()"> Ấn để tính a + b</button>
+<script>
+    function displayMessage() {
+        let a = Number(prompt("Nhap so a: "));
+        let b = Number(prompt("Nhap so b: "));
+        let message = String (a + b);
+        console.log('tổng = ' +  message);
+        document.write('tổng của 2 số a = '+a+',b='+b);
+        document.write("<br>")
+        document.write("Kết quả "+message)
+        alert(message);
+    }
+</script>
+
+</body>
+</html>
